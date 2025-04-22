@@ -1,0 +1,43 @@
+<%layout("layouts/boilerplate")%>
+
+<style>
+.home-page{
+ text-align:center;
+ margin-top:6rem;
+ color: #ffffff; 
+ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+body{
+  background-image: url("https://images.unsplash.com/photo-1548783102-00a8fdfc34a1?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  color:white;
+}
+.navbar{
+  background-color:transparent;
+  padding: 0.3rem;
+}
+
+.nav-link{
+  color:white !important;
+}
+.f-info{
+  background-color:transparent;
+}
+.f-info-links a,.f-info-socials,.f-info-brand{
+  color:#dcdcdc !important;
+  opacity: 0.8;
+}
+.f-info-socials i:hover{
+  color:white;
+}
+</style>
+
+  <div class="home-page">    
+    <h1 style="color:white"><i class=" text-danger fa-solid fa-map-location-dot"></i> Welcome to Wanderlust</h1>
+    <p style="color:white"><i class=" text-danger fa-solid fa-globe"></i> Explore amazing places to stay!</p>
+  </div>
+
+  <script>
+    document.querySelector("nav").classList.remove("border-bottom");
+  </script>
